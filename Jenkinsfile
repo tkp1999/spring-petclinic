@@ -4,7 +4,7 @@ pipeline{
         timeout(time: 30, unit: 'MINUTES')
     }
     triggers{
-        pollSCM('* * * * *')
+        pollSCM('H/5 * * * *')
     }
     tools{
         maven 'maven3.9'
