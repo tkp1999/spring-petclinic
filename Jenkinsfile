@@ -14,7 +14,7 @@ pipeline{
         stage('code get from VCS'){
             steps{
                 git branch: 'main',
-                    url: 'git@github.com:tkp1999/spring-petclinic.git'
+                    url: 'https://github.com/tkp1999/spring-petclinic.git'
 
             }
         }
