@@ -17,7 +17,7 @@ node {
         branch = 'main'
         repoUrl = 'https://github.com/tkp1999/spring-petclinic.git'
         //jdkVersion = "JDK17" 
-        jdkVersion = "JDK11" 
+        jdkVersion = "JDK18" 
         //mavenVersion = "Maven3.9"
         mavenVersion = "Maven3.6"
         dockerRegistry = "tkp1999"
