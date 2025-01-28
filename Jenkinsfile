@@ -19,7 +19,7 @@ node {
         jdkVersion = "JDK17" 
         mavenVersion = "Maven3.9"
         dockerRegistry = "tkp1999"
-        imageName = "my-app-shared_library"
+        imageName = "spring-app-shared_library"
         dockerCredentialsId = "docker-credentials"
         //buildNumber = buildNumber
     }
