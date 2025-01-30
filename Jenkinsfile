@@ -1,6 +1,6 @@
 @Library("shared-library") _
 
-node {
+
     // Define the build number with fallback if not set
     //def buildNumber = "${env.BUILD_NUMBER ?: 'local-build'}"
     //echo "Build Number: ${buildNumber}"
@@ -25,4 +25,3 @@ node {
         dockerCredentialsId = "docker-credentials"
         //buildNumber = buildNumber
     }
-}
