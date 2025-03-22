@@ -24,4 +24,7 @@
         imageName = "spring-app-shared_library"
         dockerCredentialsId = "docker-credentials"
         //buildNumber = buildNumber
+        trivyImage = "aquasec/trivy:latest"
+        targetImage = "tkp1999/spring-app-shared_library:${buildNumber}"
+        reportFormat = "html"
     }
