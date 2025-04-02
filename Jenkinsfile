@@ -26,5 +26,6 @@
         //buildNumber = buildNumber
         trivyImage = "aquasec/trivy:latest"
         targetImage = "tkp1999/spring-app-shared_library:${buildNumber}"
-        reportFormat = "spdx"
+        //reportFormat = "spdx"
+         reportFormats = "spdx,cyclonedx" 
     }
